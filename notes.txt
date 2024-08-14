@@ -1,0 +1,21 @@
+Palette - 
+
+Dark Blue - 3A0088
+Purple - 930077
+Hot Pink - E61C5D
+Golden - FFBD39
+
+Pages -
+
+Home
+Portfolio
+About Me
+Skills
+Contact
+
+Similar to https://www.producthiringhouse.com/
+
+Squares in corner = links to pages. current = white, options = grey
+Left side biased
+
+Canva Wireframe - https://www.canva.com/design/DAGLKGij9qg/ZHoSKUiO7r79BLaFm75VyQ/edit?utm_content=DAGLKGij9qg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
