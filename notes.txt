@@ -1,10 +1,15 @@
 Palette - 
 
-Dark Blue - 3A0088
-Purple - 930077
-Hot Pink - E61C5D
-Golden - FFBD39
+BG Dark Blue - #3A668C
+Text - #000000
+Dark Blue shades - #151F28
+    transparency - 70, 50, 40, 30, 20
+Foreground Golden - #FFBD39
 
+
+Font - Canva Sans
+
+Signed font - Brittany
 Pages -
 
 Home
