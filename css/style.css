@@ -1,3 +1,7 @@
+#Home {
+    display: block;
+  }
+
 #Portfolio, #Skills, #About, #Contact {
     display: none;
 }
