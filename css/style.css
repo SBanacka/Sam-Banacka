@@ -1,3 +1,20 @@
 .hidden {
     display: none;
   }
+
+  body {
+    background-color: #3A668C;
+    color: #ffffff;
+  }
+
+  a:link {
+    color: #ffffff;
+  }
+
+  a:active {
+    color:  #3A668C;
+  }
+
+  .Nav {
+    background-color: #FFBD39;
+  }
