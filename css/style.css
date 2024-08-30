@@ -5,6 +5,10 @@
   body {
     background-color: #3A668C;
     color: #ffffff;
+    display: grid;
+    grid-template-rows: repeat(3, 33%);
+    align-content: stretch;
+  
   }
 
   a:link {
@@ -17,4 +21,7 @@
 
   .Nav {
     background-color: #FFBD39;
+    
+    position:relative;
+    width: 25%;
   }
