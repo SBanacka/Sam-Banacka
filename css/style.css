@@ -19,9 +19,22 @@
     color:  #3A668C;
   }
 
-  .Nav {
+  .Nav, .Title{
     background-color: #FFBD39;
-    
     position:relative;
+  }
+
+  .Nav {
     width: 25%;
+  }
+  
+  .Title {
+    width: 100%;
+    color:  #3A668C;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  #Home {
+    display: inline-flex;
   }
