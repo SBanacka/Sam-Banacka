@@ -35,6 +35,6 @@
     font-size: larger;
   }
 
-  #Home {
+  .Main {
     display: inline-flex;
   }
