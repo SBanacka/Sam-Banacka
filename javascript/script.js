@@ -1,5 +1,5 @@
 const navLinks = document.querySelectorAll(".Nav a");
-const sections = document.querySelectorAll(".body");
+const sections = document.querySelectorAll(".Body");
 
 navLinks.forEach((link) => {
   link.addEventListener("click", (event) => {
