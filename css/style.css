@@ -27,13 +27,13 @@
   }
   .Nav, .Title{
     background-color: #FFBD39;
+    padding-top: 12px;
+    padding-left: 12px;
   }
 
   .Nav {
     grid-row: 1/5;
     grid-column: 1/1;
-    padding-top: 12px;
-    padding-left: 8px;
   }
   
   .Title {
@@ -41,6 +41,7 @@
     color:  #3A668C;
     font-weight: bold;
     font-size: larger;
+    padding-bottom: 12px;
   }
 
   .Main {
