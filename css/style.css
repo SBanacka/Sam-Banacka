@@ -72,9 +72,9 @@
     font-style: normal;
   }
 
-  h3 {
-      font-size: 1.6rem;
-      font-family: "Poppins", sans-serif;
+  h2 {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
   }
@@ -109,7 +109,15 @@
   .Body {
     grid-area: b;
     padding-top: 1.2rem;
-    padding-left: 1.2rem;
+    padding-left: 4.2rem;
+  }
+
+  .icon {
+    background-color: #cacaca;
+    border-color: #cacaca;
+    border-style: solid;
+    border-width: .2rem;
+    border-radius: 1rem;
   }
 
   .Nav, .Title{
@@ -127,9 +135,9 @@
     grid-area: a;
   }
 
-  .Shapes
-  {
+  .Shapes {
     grid-area: c;
+    display: inline-flex;
     padding-left: 1.2rem;
     align-content: end;
     padding-bottom: 3rem;
@@ -143,7 +151,6 @@
  }
 
   .Main {
-    display: inline-flex;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: minmax(10rem , 20rem) 1fr 1fr;
@@ -163,10 +170,11 @@
   }
 
   #square1 {
-    height: 24rem;
+    /*Make shrink and expand with page*/
+    height: 22rem;
     width: 1.5rem;
     background-color: #151f28;
-    margin-top: .8rem;
+    margin-top: 7rem;
     margin-bottom: .8rem;
     opacity: 70%;
   }
@@ -193,4 +201,33 @@
 
   #square5 {
     opacity: 20%;
+  }
+
+  #backgroundShape {
+    position: absolute;
+    height: 35rem;
+    width: 18rem;
+    border-radius: 2.5rem;
+    border-width: .2rem;
+    border-style: solid;
+    border-color: #151f28;
+    margin-top: 3rem;
+    margin-left: 2.2rem;
+  }
+
+  #shapedImage {
+    position: absolute;
+    background-color: #151f28;
+    background-image: url("../images/desk.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    width: 18rem;
+    border-radius: 2.5rem;
+    border-width: .2rem;;
+    border-style: solid;
+    border-color: #151f28;
+    margin-top: 1.5rem;
+    margin-left: 3.5rem;
   }
