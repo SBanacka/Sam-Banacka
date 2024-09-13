@@ -118,6 +118,7 @@
     border-style: solid;
     border-width: .2rem;
     border-radius: 1rem;
+    margin: .5rem;
   }
 
   .Nav, .Title{
@@ -136,12 +137,12 @@
   }
 
   .Shapes {
-    grid-area: c;
-    display: inline-flex;
+    grid-area: d;
+    display: flex;
     padding-left: 1.2rem;
-    align-content: end;
     padding-bottom: 3rem;
   }
+
   
   .Title {
     width: 100%;
@@ -152,14 +153,19 @@
 
   .Main {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 12rem 1fr 40rem;
     grid-template-columns: minmax(10rem , 20rem) 1fr 1fr;
     height:87vh;
     grid-template-areas:
     "a b b"
     "c b b"
-    "c b b"
-    "c b b";
+    "d b b"
+    "d b b";
+  }
+
+  #skillBox {
+    display:inline-flex;
+    margin: 1rem;
   }
 
   #signOff {
