@@ -209,7 +209,7 @@
   #square5 {
     opacity: 20%;
   }
-
+  
   #backgroundShape {
     position: absolute;
     height: 35rem;
@@ -239,9 +239,48 @@
     margin-left: 3.5rem;
   }
 
-  @media only screen and (max-width: 925px)
+  @media only screen and (max-height: 700px)
   {
+    .Main{
+      grid-template-areas:
+      "a b b"
+      "c b b"
+      "c b b"
+      "d d d";
+    }
+    .Shapes{
+      background-color: #FFBD39;
+      display:inline-flex;
+    }
 
+#cornerImage {
+  display:inline-grid;
+  margin-top:-35rem;
+
+}
+
+  #gradient {
+    display:inline-flex;
+    }
+
+  #square1 {
+    /*Make shrink and expand with page*/
+    height: 1.5rem;
+    width: 22rem;
+    background-color: #151f28;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+    opacity: 70%;
+  }
+
+  #square2, #square3, #square4, #square5 {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #151f28;
+    margin-top: .8rem;
+    margin-left: .8rem;
+    margin-bottom: .8rem;
+  }
   }
   
   @media only screen and (max-width: 560px)
