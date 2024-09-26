@@ -2,54 +2,6 @@
     font-size:62.5%;
   }
 
-  .qwitcher-grypen-regular {
-    font-family: "Qwitcher Grypen", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .qwitcher-grypen-bold {
-    font-family: "Qwitcher Grypen", cursive;
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  .poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .poppins-light-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .poppins-medium-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .poppins-bold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }  
-
   a:link {
     color: #151f28;
     font-family: "Poppins", sans-serif;
@@ -251,12 +203,14 @@
     .Shapes{
       background-color: #FFBD39;
       display:inline-flex;
+      width: 100%;
+
     }
 
 #cornerImage {
   display:inline-grid;
   margin-top:-35rem;
-
+  margin-left: 15vw;
 }
 
   #gradient {
@@ -264,9 +218,8 @@
     }
 
   #square1 {
-    /*Make shrink and expand with page*/
     height: 1.5rem;
-    width: 22rem;
+    width: 33vw;
     background-color: #151f28;
     margin-top: .8rem;
     margin-bottom: .8rem;
