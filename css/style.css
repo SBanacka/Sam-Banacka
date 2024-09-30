@@ -211,6 +211,7 @@
   display:inline-grid;
   margin-top:-35rem;
   margin-left: 15vw;
+  justify-self: end;
 }
 
   #gradient {
