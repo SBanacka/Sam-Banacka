@@ -56,6 +56,7 @@
   body {
     background-color: #3A668C;
     color: #ffffff;
+
   }
 
   .Body {
@@ -63,6 +64,7 @@
     padding-top: 1.2rem;
     padding-left: 4.2rem;
     margin-right: 1rem;
+
   }
 
   .icon {
@@ -109,6 +111,7 @@
     grid-template-rows: 12rem 1fr 40rem;
     grid-template-columns: minmax(10rem , 20rem) 1fr 1fr;
     height:87vh;
+    min-height:575px;
     grid-template-areas:
     "a b b"
     "c b b"
@@ -126,6 +129,7 @@
     font-weight: 400;
     font-style: normal;
     font-size: 4rem;
+    z-index: 2;
   }
 
   #square1 {
@@ -208,14 +212,18 @@
     }
 
 #cornerImage {
-  display:inline-grid;
   margin-top:-35rem;
-  margin-left: 15vw;
-  justify-self: end;
+  justify-items: end;
+  margin-left: auto;
+  margin-right: 2rem;
 }
 
   #gradient {
     display:inline-flex;
+    }
+
+    #shapedImage {
+      position: relative;
     }
 
   #square1 {
