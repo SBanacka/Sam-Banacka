@@ -62,7 +62,7 @@
   .Body {
     grid-area: b;
     padding-top: 1.2rem;
-    padding-left: 4.2rem;
+    padding-left: 8rem;
     margin-right: 1rem;
 
   }
@@ -197,6 +197,10 @@
 
   @media only screen and (max-height: 700px)
   {
+
+  .Body {
+    padding-left: 1rem;
+  }
     .Main{
       grid-template-areas:
       "a b b"
