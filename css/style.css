@@ -302,3 +302,60 @@
       }
 
   }
+
+  @media only screen and (max-height: 460px)
+  {
+    html {
+      min-height: 340px;
+      overflow: auto;
+    }
+    
+    #backgroundShape {
+      height: 12.5rem;
+      width: 6rem;
+      border-radius: .875rem;
+    }
+
+    #cornerImage {
+      left:0;
+    }
+  
+    #shapedImage {
+      height: 12.5rem;
+      width: 6rem;
+      border-radius: .875rem;  
+      margin-top: 2.25rem;
+      margin-left: 3rem;
+    }
+  }
+
+  @media only screen and (max-height: 335px)
+  {
+    .Title{
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      padding-left: 5rem;
+    }
+    #cornerImage {
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+
+    #backgroundShape {
+      height: 3.5rem;
+      width: 3rem;
+      border-radius: .875rem;
+      margin-top: .5rem;
+      margin-left: .5rem;
+    }
+
+  
+    #shapedImage {
+      height: 3.5rem;
+      width: 3rem;
+      border-radius: .875rem;  
+      margin-top: 1rem;
+      margin-left: 1rem;
+    }
+  }
