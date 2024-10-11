@@ -252,10 +252,14 @@
   }
   }
   
-  @media only screen and (max-height: 620px)
+  @media only screen and (max-height: 620px) 
   {
     html{
       font-size:60%;
+    }
+
+    .Body {
+      padding-left: 6rem;
     }
 
     .Main {
@@ -310,27 +314,10 @@
       overflow: auto;
     }
     
-    #backgroundShape {
-      height: 12.5rem;
-      width: 6rem;
-      border-radius: .875rem;
+    .Body {
+      padding-left: 1rem;
     }
-
-    #cornerImage {
-      left:0;
-    }
-  
-    #shapedImage {
-      height: 12.5rem;
-      width: 6rem;
-      border-radius: .875rem;  
-      margin-top: 2.25rem;
-      margin-left: 3rem;
-    }
-  }
-
-  @media only screen and (max-height: 335px)
-  {
+    
     .Title{
       padding-top: 1.5rem;
       padding-bottom: 1.5rem;
@@ -340,6 +327,88 @@
       position: fixed;
       top: 0;
       left: 0;
+    }
+
+    #backgroundShape {
+      height: 3.5rem;
+      width: 3rem;
+      border-radius: .875rem;
+      margin-top: .5rem;
+      margin-left: .5rem;
+    }
+
+  
+    #shapedImage {
+      height: 3.5rem;
+      width: 3rem;
+      border-radius: .875rem;  
+      margin-top: 1rem;
+      margin-left: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 880px)
+  {
+    html{
+      font-size:60%;
+    }
+    
+    .Main{
+      grid-template-areas:
+      "a b b"
+      "c b b"
+      "c b b"
+      "d d d";
+    }
+
+    .Shapes{
+      background-color: #FFBD39;
+      display:inline-flex;
+      width: 100%;
+      padding-bottom: 1.5rem;
+    }
+
+        .Body {
+      padding-left: 1rem;
+    }
+    
+    .Title{
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      padding-left: 5rem;
+    }
+
+    #gradient {
+      display:inline-flex;
+      }
+  
+      #shapedImage {
+        position: relative;
+      }
+  
+    #square1 {
+      height: 1.5rem;
+      width: 33vw;
+      background-color: #151f28;
+      margin-top: .8rem;
+      margin-bottom: .8rem;
+      opacity: 70%;
+    }
+  
+    #square2, #square3, #square4, #square5 {
+      height: 1.5rem;
+      width: 1.5rem;
+      background-color: #151f28;
+      margin-top: .8rem;
+      margin-left: .8rem;
+      margin-bottom: .8rem;
+    }
+
+    #cornerImage {
+      position: fixed;
+      top: 0;
+      left: 0;
+      margin-top: 0;
     }
 
     #backgroundShape {
