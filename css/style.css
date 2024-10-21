@@ -271,6 +271,8 @@
     .Nav {
       padding-left: 2rem;
     }
+
+
     .Shapes{
       position:fixed;
       bottom: 0;
@@ -325,6 +327,7 @@
       padding-bottom: 1.5rem;
       padding-left: 5rem;
     }
+    
     #cornerImage {
       position: fixed;
       top: 0;
@@ -379,6 +382,11 @@
       padding-top: 1.5rem;
       padding-bottom: 1.5rem;
       padding-left: 5rem;
+    }
+
+    li, a:link {
+      font-size: 3rem;
+      margin-top: 2rem; 
     }
 
     #gradient {
