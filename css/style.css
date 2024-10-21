@@ -137,7 +137,6 @@
   }
 
   #square1 {
-    /*Make shrink and expand with page*/
     height: 22rem;
     width: 1.5rem;
     background-color: #151f28;
@@ -370,7 +369,6 @@
       width: 100%;
       padding-bottom: 1.5rem;
       padding-right: 10rem;
-  }
     }
 
         .Body {
